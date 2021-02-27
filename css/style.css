@@ -1,0 +1,101 @@
+html, body{
+   
+    margin: 0px;
+    padding: 0px;
+    font-family: Rubik-Regular;
+}
+
+*{
+    box-sizing: border-box;
+}
+p{
+    font-family: Rubik-Light;
+    font-size: small;
+}
+
+input{
+    background-color: white;
+}
+
+.home-link > ul{
+    list-style: none;
+}
+.home-link  a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: smaller;
+}
+.home-link a:hover{
+    background-color: purple;
+    padding: 5px;
+   
+}
+.home-link a:focus{
+    background-color: #fafafa;
+    padding: 5px;
+    
+}
+.home-link > ul >li{
+    float: left;
+    width: 14%;
+    text-align: center;
+}
+.social-media-icon{
+    color: white; 
+    font-size: 18px; 
+    padding: 5px;
+    transition: 1.2s;
+}
+.social-media-icon:hover{
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+    color: #ffdd00;
+}
+
+#purple-gradient{
+    background-image: linear-gradient(to bottom right, #800070, #ff00aa);
+    background-repeat: no-repeat;
+}
+.icon-img{
+    height: 40px;
+    width: 40px;
+}
+.icon-img:hover{
+    opacity: 0.5;
+}
+#flat-btn{
+    border-radius: 0;
+}
+#mobile-logo{
+    width: 100px;
+    padding: 10px;
+   
+}
+#smallCard{
+    width: 50px;
+    height: 50px;
+}
+#thumb-image{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.res-img{
+    max-height: 120px;
+    object-fit: cover;
+    width: 100%;
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url("../fonts/Rubik-Regular.ttf");
+  }
+  @font-face {
+    font-family: Rubik-Light;
+    src: url("../fonts/Rubik-Light.ttf");
+  }
+  @font-face {
+    font-family: RockSalt-Regular;
+    src: url("../fonts/RockSalt-Regular.ttf");
+  }
